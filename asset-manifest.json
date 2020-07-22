@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/colour-picker-mintbean-hackathon/static/css/main.81bbacd0.chunk.css",
-    "main.js": "/colour-picker-mintbean-hackathon/static/js/main.b3fdb30e.chunk.js",
-    "main.js.map": "/colour-picker-mintbean-hackathon/static/js/main.b3fdb30e.chunk.js.map",
+    "main.js": "/colour-picker-mintbean-hackathon/static/js/main.e0f49ca2.chunk.js",
+    "main.js.map": "/colour-picker-mintbean-hackathon/static/js/main.e0f49ca2.chunk.js.map",
     "runtime-main.js": "/colour-picker-mintbean-hackathon/static/js/runtime-main.667e5161.js",
     "runtime-main.js.map": "/colour-picker-mintbean-hackathon/static/js/runtime-main.667e5161.js.map",
     "static/js/2.f7ff3ccd.chunk.js": "/colour-picker-mintbean-hackathon/static/js/2.f7ff3ccd.chunk.js",
     "static/js/2.f7ff3ccd.chunk.js.map": "/colour-picker-mintbean-hackathon/static/js/2.f7ff3ccd.chunk.js.map",
     "index.html": "/colour-picker-mintbean-hackathon/index.html",
-    "precache-manifest.6c0be4e4ad4d2a287c2c21b4647e503b.js": "/colour-picker-mintbean-hackathon/precache-manifest.6c0be4e4ad4d2a287c2c21b4647e503b.js",
+    "precache-manifest.92fa69b250ac8491388b155c0195050b.js": "/colour-picker-mintbean-hackathon/precache-manifest.92fa69b250ac8491388b155c0195050b.js",
     "service-worker.js": "/colour-picker-mintbean-hackathon/service-worker.js",
     "static/css/main.81bbacd0.chunk.css.map": "/colour-picker-mintbean-hackathon/static/css/main.81bbacd0.chunk.css.map",
     "static/js/2.f7ff3ccd.chunk.js.LICENSE.txt": "/colour-picker-mintbean-hackathon/static/js/2.f7ff3ccd.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.667e5161.js",
     "static/js/2.f7ff3ccd.chunk.js",
     "static/css/main.81bbacd0.chunk.css",
-    "static/js/main.b3fdb30e.chunk.js"
+    "static/js/main.e0f49ca2.chunk.js"
   ]
 }
