@@ -19,8 +19,7 @@ export default function Settings({
 	};
 
 	const changeSettings = e => {
-		const setting = e.target.getAttribute('value');
-		changeSetting(setting);
+		changeSetting(e);
 	};
 
 	const setRandom = () => {
@@ -66,27 +65,27 @@ export default function Settings({
 						</NavDropdown>
 						<NavDropdown.Divider />
 
-						<Nav.Link
-							value={'lighten'}
-							eventKey={'lighten'}
-							onClick={e => changeSettings(e)}>
-							Lighten
-						</Nav.Link>
-						<Nav.Link value={'brighten'} onClick={e => changeSettings(e)}>
-							Brighten
-						</Nav.Link>
-						<Nav.Link value={'darken'} onClick={e => changeSettings(e)}>
-							Darken
-						</Nav.Link>
-						<Nav.Link value={'desaturate'} onClick={e => changeSettings(e)}>
-							Desaturate
-						</Nav.Link>
-						<Nav.Link value={'saturate'} onClick={e => changeSettings(e)}>
-							Saturate
-						</Nav.Link>
-						<Nav.Link value={'greyscale'} onClick={e => changeSettings(e)}>
-							Greyscale
-						</Nav.Link>
+						<NavDropdown
+							onSelect={e => changeSettings(e)}
+							title='Adjustments'
+							id='adjustments'>
+							<NavDropdown.Item eventKey='lighten'>Lighten</NavDropdown.Item>
+							<NavDropdown.Divider />
+							<NavDropdown.Item eventKey='brighten'>Brighten</NavDropdown.Item>
+							<NavDropdown.Divider />
+							<NavDropdown.Item eventKey='darken'>Darken</NavDropdown.Item>
+							<NavDropdown.Divider />
+							<NavDropdown.Item eventKey='desaturate'>
+								Desaturate
+							</NavDropdown.Item>
+							<NavDropdown.Divider />
+							<NavDropdown.Item eventKey='saturate'>Saturate</NavDropdown.Item>
+							<NavDropdown.Divider />
+							<NavDropdown.Item eventKey='greyscale'>
+								Greyscale
+							</NavDropdown.Item>
+							<NavDropdown.Divider />
+						</NavDropdown>
 						<NavDropdown
 							onSelect={e => handleSettingValueChange(e)}
 							title='Change Value (%)'>
