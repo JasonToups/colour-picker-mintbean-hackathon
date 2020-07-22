@@ -40,15 +40,16 @@
 .hex-value {
 	position: relative;
 	margin: auto;
-	padding-top: 75vh;
-	font-size: 3vw;
+	height: 100vh;
+	padding-top: 40vh;
+	font-size: 4vw;
 	color: black;
 	text-shadow: 1px 1px 0px rgb(126, 126, 126);
 }
 
 #brand {
 	font-size: 1.5em;
-	color: antiquewhite;
+	color: whitesmoke;
 }
 
 #random {
