@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ca576486e3fccce92a43d9e3f20ac7b",
+    "revision": "cc25c47f7f104031a04a7a4d3bd27525",
     "url": "/colour-picker-mintbean-hackathon/index.html"
   },
   {
-    "revision": "ffb6f635baa1cba3da91",
+    "revision": "ce589646a47b25630094",
     "url": "/colour-picker-mintbean-hackathon/static/css/main.1f499b35.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/colour-picker-mintbean-hackathon/static/js/2.c0a5bd7a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ffb6f635baa1cba3da91",
-    "url": "/colour-picker-mintbean-hackathon/static/js/main.222dde80.chunk.js"
+    "revision": "ce589646a47b25630094",
+    "url": "/colour-picker-mintbean-hackathon/static/js/main.c22b7172.chunk.js"
   },
   {
     "revision": "18bce7a9936c29aeae6e",
