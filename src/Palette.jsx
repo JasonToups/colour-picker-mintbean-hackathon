@@ -51,7 +51,7 @@ export default function Palette({ hex, variation, setting, settingValue }) {
 		return <Colors hex={colors} />;
 	} else {
 		colorPalette = colors.map(t => {
-			let hexColor = t.toHexString();
+			let hexColor = t.toHexString().toUpperCase();
 
 			hexColor = settings(hexColor);
 
