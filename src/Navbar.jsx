@@ -33,7 +33,7 @@ export default function Settings({
 
 	return (
 		<div>
-			<Navbar expand='xl' bg='dark' variant='dark'>
+			<Navbar expand='lg' bg='dark' variant='dark'>
 				<Nav className='mr-auto'>
 					<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 
@@ -86,6 +86,7 @@ export default function Settings({
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
 						</NavDropdown>
+						<NavDropdown.Divider />
 						<NavDropdown
 							onSelect={e => handleSettingValueChange(e)}
 							title='Change Value (%)'>
