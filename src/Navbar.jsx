@@ -158,16 +158,16 @@ export default function Settings({
 							<NavDropdown
 								onSelect={e => handleSettingValueChange(e)}
 								title='Intensity'>
-								<NavDropdown.Item eventKey='2'>10</NavDropdown.Item>
-								<NavDropdown.Item eventKey='4'>20</NavDropdown.Item>
-								<NavDropdown.Item eventKey='6'>30</NavDropdown.Item>
-								<NavDropdown.Item eventKey='8'>40</NavDropdown.Item>
-								<NavDropdown.Item eventKey='12'>50</NavDropdown.Item>
-								<NavDropdown.Item eventKey='16'>60</NavDropdown.Item>
-								<NavDropdown.Item eventKey='20'>70</NavDropdown.Item>
-								<NavDropdown.Item eventKey='30'>80</NavDropdown.Item>
-								<NavDropdown.Item eventKey='40'>90</NavDropdown.Item>
-								<NavDropdown.Item eventKey='50'>100</NavDropdown.Item>
+								<NavDropdown.Item eventKey='2'>10%</NavDropdown.Item>
+								<NavDropdown.Item eventKey='4'>20%</NavDropdown.Item>
+								<NavDropdown.Item eventKey='6'>30%</NavDropdown.Item>
+								<NavDropdown.Item eventKey='8'>40%</NavDropdown.Item>
+								<NavDropdown.Item eventKey='12'>50%</NavDropdown.Item>
+								<NavDropdown.Item eventKey='16'>60%</NavDropdown.Item>
+								<NavDropdown.Item eventKey='20'>70%</NavDropdown.Item>
+								<NavDropdown.Item eventKey='30'>80%</NavDropdown.Item>
+								<NavDropdown.Item eventKey='40'>90%</NavDropdown.Item>
+								<NavDropdown.Item eventKey='50'>100%</NavDropdown.Item>
 							</NavDropdown>
 						</OverlayTrigger>
 					</Navbar.Collapse>
