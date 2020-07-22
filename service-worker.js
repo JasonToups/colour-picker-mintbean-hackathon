@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/colour-picker-mintbean-hackathon/precache-manifest.3e0687efb82d4fe005a33c70af97d01c.js"
+  "/colour-picker-mintbean-hackathon/precache-manifest.b6d8b5a6c13889ce0357b7623f550b3f.js"
 );
 
 self.addEventListener('message', (event) => {
