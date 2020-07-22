@@ -1,5 +1,13 @@
 import React from 'react';
-import { Navbar, Form, Nav, FormControl, NavDropdown } from 'react-bootstrap';
+import {
+	Navbar,
+	Form,
+	Nav,
+	FormControl,
+	NavDropdown,
+	Tooltip,
+	OverlayTrigger,
+} from 'react-bootstrap';
 
 const tinycolor = require('tinycolor2');
 
@@ -31,6 +39,14 @@ export default function Settings({
 		changeSettingValue(e);
 	};
 
+	function renderTooltip(props) {
+		return (
+			<Tooltip id='button-tooltip' {...props}>
+				Click to Generate Colors
+			</Tooltip>
+		);
+	}
+
 	return (
 		<div>
 			<Navbar expand='lg' bg='dark' variant='dark'>
@@ -38,7 +54,14 @@ export default function Settings({
 					<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 
 					<Navbar.Collapse id='responsive-navbar-nav'>
-						<Navbar.Brand>Color Palette Generator</Navbar.Brand>
+						<OverlayTrigger
+							placement='bottom'
+							delay={{ show: 250, hide: 400 }}
+							overlay={renderTooltip}>
+							<Nav.Link id='brand' onClick={() => setRandom()}>
+								Color Palette Generator
+							</Nav.Link>
+						</OverlayTrigger>
 						<NavDropdown
 							onSelect={e => handleVariationChange(e)}
 							title='Schemes'
@@ -103,9 +126,6 @@ export default function Settings({
 						</NavDropdown>
 					</Navbar.Collapse>
 				</Nav>
-				<Nav.Link id='random' onClick={() => setRandom()}>
-					Random
-				</Nav.Link>
 				<Form onChange={e => handleHexChange(e)} inline>
 					<FormControl type='text' placeholder='#77d36a' className='mr-sm-2' />
 				</Form>
